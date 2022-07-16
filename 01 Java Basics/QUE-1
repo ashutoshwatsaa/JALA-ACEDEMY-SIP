@@ -6,12 +6,14 @@ package A01_Java_Basics;
 public class Ques01 {
 
     //Creating METHOD
-    static void method() {
-        String str = "Ashutosh watsa";
-        System.out.print(str);
+    static void method() 
+    {
+        String s = "Ashutosh watsa";
+        System.out.print(s);
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         //Creating OBJECT
         Ques01 obj = new Ques01();
 
