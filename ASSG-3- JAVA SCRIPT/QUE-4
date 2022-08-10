@@ -1,0 +1,12 @@
+//Q-4
+const person = {
+    firstName: "ASHUTOSH",
+    lastName: "WATSA",
+  };
+  // firstWay
+  console.log(person.firstName);
+  console.log(person.lastName);
+  
+  //secondWay
+  console.log(person["firstName"]);
+  console.log(person["lastName"]);
